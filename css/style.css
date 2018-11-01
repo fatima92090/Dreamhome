@@ -6,7 +6,7 @@
 .wrapper {
     width: 100%;
     background-color: #B3D4FF;
-    background-image: linear-gradient( #73a5e6,#bec8d62b);
+    background-image: linear-gradient( #B6D6FD,#FFFFFF);
     margin: 0;
     padding: 0;
     min-height: 100%;   
@@ -114,6 +114,11 @@ header{
     cursor: pointer;
     border-radius: 5px;
 }
+
+.banner-content button:hover{
+     background-color: #DDDDDD;
+     color: #A5B7E5;
+}
 /*banner end*/
 
 /*service start*/
@@ -125,8 +130,7 @@ header{
 }
 
 .box {
-   width: 29%;
-    margin-top: 35px;
+   width: 29%;   
     float: left;
     padding: 25px 24px;
 }
@@ -135,7 +139,7 @@ header{
     text-align: center;
 }
 .caption h1{
-    color: #DBD5D5;
+    color: #8a8a8b;
     padding: 12px 0;
     font-family: sans-serif;
     font-weight: normal;
@@ -169,11 +173,18 @@ header{
     border: none;
     color: white;
 }
+.box-footer button:hover{
+    background-color: #859EB2;
+    color: #545454e6;
+    border: none;
+}
 /*service end*/
 /*footer start*/
 .footer{
-background-color: white;
-overflow: hidden;
+    background-color: white;
+    overflow: hidden;
+    padding-top: 12px;
+    padding-bottom: 25px;
 }
 .footer-content{
 
